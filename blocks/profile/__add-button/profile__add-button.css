@@ -20,9 +20,10 @@
 
 @media screen and (max-width: 1023px) {
 .profile__add-button {
-    margin: 36px 0 0 0;
+    margin: 33px 0 0 0;
     max-width: 280px;
     width: 100%;
     min-height: 50px;
+    background-image: url(../../../images/add-button-mobile.svg);
 }
 }

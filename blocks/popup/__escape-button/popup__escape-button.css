@@ -7,17 +7,18 @@
     background-repeat: no-repeat;
     background-position: center;
     position: absolute;
-    top: -35px;
-    right: -35px;
+    top: -40px;
+    right: -40px;
 }
 
 .popup__escape-button:hover {
-    opacity: 0.5;
+    opacity: 0.6;
     cursor: pointer;
 }
 
 @media screen and (max-width: 512px) {
 .popup__escape-button {
+    background-image: url(../../../images/popyp-close-mobile.svg);
     width: 20px;
     height: 20px;
     top: -36px;

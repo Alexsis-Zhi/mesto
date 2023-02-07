@@ -3,7 +3,7 @@
     height: 50px;
     background: #000000;
     border-radius: 2px;
-    margin: 20px 36px 37px 36px;
+    margin: 17px 36px 37px 36px;
     color: #FFFFFF;
     border: rgba(0, 0, 0, 0);
     padding: 0;
@@ -21,10 +21,9 @@
 
 @media screen and (max-width: 768px) {
 .popup__save-button {
-    width: calc(100% - (22px + 22px));
+    width: calc(100% - 44px);
+    margin: 45px 22px 25px 22px;
     height: 46px;
-    margin: 0 auto 25px auto;
     font-size: 14px;
-    line-height: 17px;
 }
 }

@@ -8,6 +8,7 @@
     border: 0;
     background-color: white;
     margin-right: 20px;
+    flex-shrink: 0;
 }
 
 .elements__card-like:hover {
