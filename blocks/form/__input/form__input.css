@@ -13,4 +13,11 @@
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
+    margin-bottom: 30px;   
 }
+
+@media screen and (max-width: 768px) {
+    .form__input {
+       margin-bottom: 0;
+    }
+    }
